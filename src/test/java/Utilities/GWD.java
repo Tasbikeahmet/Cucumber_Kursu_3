@@ -88,7 +88,7 @@ public class GWD {
         }
 
     }
-    public static boolean runningFromIntelliJ()
+    public static boolean runningFromIntelliJ()//intelij kullanilmiyorsa option si kullanamasini sagliyan metod
     {
         String classPath = System.getProperty("java.class.path");
         return classPath.contains("idea_rt.jar");
